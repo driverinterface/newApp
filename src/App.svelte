@@ -25,9 +25,25 @@
 
 <style lang="scss">
   @use "./defaultCSSTokens.scss" as designTokens;
-  @media only screen and (max-width: designTokens.$mediaSizeExtraLarge) {
-    input {
-      height: designTokens.$defaultInputHeight;
+
+  input {
+    padding: designTokens.$defaultInputPadding;
+    border-radius: designTokens.$defaultBorderRadius;
+    border-color: designTokens.$defaultButtonBackground;
+  }
+  #button-submit {
+    &:disabled {
+      background-color: designTokens.$defaultButtonDisabledColor;
+      cursor: designTokens.$cursorTypeDisabled;
     }
+    &:hover {
+      zoom: designTokens.$onHoverValue;
+      border-color: none;
+    }
+    padding: designTokens.$defaultPadding;
+    width: 100%;
+    margin-top: designTokens.$defaultMarginValue;
+    background-color: designTokens.$defaultButtonBackground;
+    color: designTokens.$defaultButtonColor;
   }
 </style>

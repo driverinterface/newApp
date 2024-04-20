@@ -1,11 +1,18 @@
 //allowed pixels
+$defaultMarginValue: 12px;
 $defaultInputHeight: 10px;
 $defaultButtonHeight: 20px;
 $defaultGap: 8px;
+$defaultBorderRadius: 4px;
+
+//defaultPaddingForButtons
+$defaultPadding: 10px 16px 16px 16px;
+$defaultInputPadding: 10px 10px 10px 10px;
 
 //Colors
 $defaultButtonBackground: black;
 $defaultButtonColor: white;
+$defaultButtonDisabledColor: lightgrey;
 $defaultInputBorder: $defaultButtonBackground;
 $defaultInputBgColor: $defaultButtonColor;
 
@@ -14,3 +21,9 @@ $mediaSizeSmall: 300px;
 $mediaSizeMedium: 600px;
 $mediaSizeLarge: 900px;
 $mediaSizeExtraLarge: 1020px;
+
+//cursor type for disabled button
+$cursorTypeDisabled: not-allowed;
+
+//zoom value on hover
+$onHoverValue: 1.025;
