@@ -1,0 +1,16 @@
+//allowed pixels
+$defaultInputHeight: 10px;
+$defaultButtonHeight: 20px;
+$defaultGap: 8px;
+
+//Colors
+$defaultButtonBackground: black;
+$defaultButtonColor: white;
+$defaultInputBorder: $defaultButtonBackground;
+$defaultInputBgColor: $defaultButtonColor;
+
+//Media query sizes -- Always mobile first approach
+$mediaSizeSmall: 300px;
+$mediaSizeMedium: 600px;
+$mediaSizeLarge: 900px;
+$mediaSizeExtraLarge: 1020px;
