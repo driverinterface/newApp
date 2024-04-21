@@ -7,7 +7,7 @@
     "test": "test",
     "build": "npx tsc",
     "start": "node dist/server.js",
-    "dev": "nodemon serverApp.js"
+    "dev": "nodemon serverApp.ts"
   },
   "repository": {
     "type": "git",
