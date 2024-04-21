@@ -1,6 +1,6 @@
 <script lang="ts">
-  import { handleInput } from "./index.js";
-  import { inputAttributeObject, buttonSubmit } from "./inputAttribute.js";
+  import { handleInput } from "./index.ts";
+  import { inputAttributeObject, buttonSubmit } from "./inputAttribute.ts";
   handleInput();
 </script>
 
