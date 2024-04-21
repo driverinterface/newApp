@@ -22,28 +22,3 @@
 >
   {buttonSubmit.BUTTON_INNER_TEXT}
 </button>
-
-<style lang="scss">
-  @use "./defaultCSSTokens.scss" as designTokens;
-
-  input {
-    padding: designTokens.$defaultInputPadding;
-    border-radius: designTokens.$defaultBorderRadius;
-    border-color: designTokens.$defaultButtonBackground;
-  }
-  #button-submit {
-    &:disabled {
-      background-color: designTokens.$defaultButtonDisabledColor;
-      cursor: designTokens.$cursorTypeDisabled;
-    }
-    &:hover {
-      zoom: designTokens.$onHoverValue;
-      border-color: none;
-    }
-    padding: designTokens.$defaultPadding;
-    width: 100%;
-    margin-top: designTokens.$defaultMarginValue;
-    background-color: designTokens.$defaultButtonBackground;
-    color: designTokens.$defaultButtonColor;
-  }
-</style>
